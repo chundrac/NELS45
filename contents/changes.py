@@ -19,7 +19,7 @@ devoi = {'b': 'p', 'd': 't', 'g': 'k', '\xca\x90': '\xca\x82', '\xe1\xb6\x91': '
 
 frame = []
 #for line in open('unidia_top100nonunique.csv','rU'):
-for line in open('unidia_test.csv','rU'):
+for line in open('unidia_full.csv','rU'):
   subframe = []
   for subline in line.split('\t'):
     subframe.append(subline.split())
